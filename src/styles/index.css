@@ -1,0 +1,22 @@
+.header {
+  height: 5rem;
+  background-color: rgb(219, 190, 190);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 18px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.header:hover {
+  cursor: pointer;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap:30px;
+    padding:0px 20px;
+}
